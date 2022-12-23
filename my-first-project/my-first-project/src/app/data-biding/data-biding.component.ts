@@ -12,10 +12,21 @@ export class DataBidingComponent implements OnInit {
   public maisUm: number = 1;
 
   public desativaBotao: boolean = true;
-  public imgSrc: string = "https://i.pinimg.com/originals/bd/a5/be/bda5be61177acdb5fd46c3219f8b81a0.jpg "
+  public imgSrc: string = "https://img.elo7.com.br/product/zoom/3C31775/painel-redondo-one-piece-lona-festa-infantil.jpg"
+  public position: {x: number, y: number} = {x: 0, y: 0};
   constructor() {}
 
   ngOnInit(): void {
     
+  }
+
+  public alertaInfo(valor: MouseEvent){
+    console.log(valor); 
+  }
+
+  public mouseMoveTeste(valor: MouseEvent){
+    
+    this.position.x = valor.offsetX;
+    this.position.y = valor.offsetY;
   }
 }
