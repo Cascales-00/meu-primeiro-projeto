@@ -23,11 +23,16 @@ import { Component, OnInit } from '@angular/core';
   -->
   <!--
   <app-diretivas-atributos></app-diretivas-atributos>
+  <app-new-component></app-new-component>
   -->
 
+<!-- @input
+  <app-input [contador]="addValue"></app-input>
+  <br>
+  <button (click)="add()">Add</button>
+-->
 
-  <app-input></app-input>
-
+  <app-output></app-output>
   <router-outlet></router-outlet>  
   `,
   
@@ -35,6 +40,8 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
 
   public destruir: boolean = true;
+
+  public addValue: number = 0;
   constructor() {
   }
   
@@ -42,6 +49,8 @@ export class AppComponent implements OnInit{
 
   }
 
-  
+  public add() {
+    this.addValue += 1;
+  }
   
 }

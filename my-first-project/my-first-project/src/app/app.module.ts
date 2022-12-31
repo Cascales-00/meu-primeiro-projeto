@@ -8,7 +8,6 @@ import { TitleComponent } from './title/title.component';
 import { DataBidingComponent } from './data-biding/data-biding.component';
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
-import { InputComponent } from './shared/input/input.component';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -19,8 +18,7 @@ import { SharedModule } from './shared/shared.module';
     TitleComponent,
     DataBidingComponent,
     DiretivasEstruturaisComponent,
-    DiretivasAtributosComponent,
-    InputComponent
+    DiretivasAtributosComponent
   ],
   imports: [
     BrowserModule,
