@@ -8,7 +8,9 @@ import { TitleComponent } from './title/title.component';
 import { DataBidingComponent } from './data-biding/data-biding.component';
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
-import { InputComponent } from './input/input.component';
+import { InputComponent } from './shared/input/input.component';
+import { SharedModule } from './shared/shared.module';
+
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { InputComponent } from './input/input.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

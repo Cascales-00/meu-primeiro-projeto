@@ -20,10 +20,15 @@ import { Component, OnInit } from '@angular/core';
     <h1> Patricia Moraes </h1>
     <h3>Elisangela Silva</h3>
   </app-diretivas-atributos>
-
-  <router-outlet></router-outlet>
   -->
+  <!--
   <app-diretivas-atributos></app-diretivas-atributos>
+  -->
+
+
+  <app-input></app-input>
+
+  <router-outlet></router-outlet>  
   `,
   
 })
