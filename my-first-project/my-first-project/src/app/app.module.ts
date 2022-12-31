@@ -8,6 +8,7 @@ import { TitleComponent } from './title/title.component';
 import { DataBidingComponent } from './data-biding/data-biding.component';
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
+import { InputComponent } from './input/input.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atr
     TitleComponent,
     DataBidingComponent,
     DiretivasEstruturaisComponent,
-    DiretivasAtributosComponent
+    DiretivasAtributosComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
