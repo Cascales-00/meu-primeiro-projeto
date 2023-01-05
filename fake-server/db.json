@@ -1,24 +1,8 @@
 {
   "list-food": [
     {
-      "id": 1,
-      "nome": "X Bacon"
-    },
-    {
-      "id": 2,
-      "nome": "Feijão"
-    },
-    {
-      "id": 3,
-      "nome": "Ovo"
-    },
-    {
-      "nome": "feijoada",
-      "id": 4
-    },
-    {
-      "nome": "temaki",
-      "id": 5
+      "nome": "item 3",
+      "id": 2
     }
   ]
 }
